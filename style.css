@@ -1,15 +1,13 @@
-div{
-    width: 100%;
-    height: 600px;
-}
 #header{
     background-image: url("image/13.png");
     justify-content: space-between;
     display: flex;
+    width: 100%;
+    height: 853px;
 }
 
 .side{
-    width: 15%;
+    width: 30%;
 }
 
 .box{
@@ -29,15 +27,18 @@ div{
 }
 
 #logo{
-    width:100px;
-    height: 20px;
-    background-color: black;
+    width:150px;
+    height: 40px;
+    background-image: url("image/logo.jpg");
 }
 
 .list{
     list-style: none;
     display: flex;
     justify-content: space-between;
+    font-family: "배달의민족 주아";
+    margin-top: 20px;
+    font-size: 19px;
 }
 
 li{
@@ -48,22 +49,219 @@ li{
     color: white;
     padding-top: 180px;
     text-align: right;
+    font-family: "배달의민족 주아";
 }
 
 #text span{
-    font-size: 15px;
+    font-size: 25px;
     padding-right: 150px;
     
 }
 
 #text h1{
-    font-size: 70px;
+    font-size: 100px;
     padding-right: 20px;
     line-height: 10px;
+    color: white;
+    font-family: "궁서체";
 }
 
 main{
     background-image: url("image/12.png");
     width: 100%;
     height: 1400px;
+}
+
+#mainText{
+    margin-left: 500px;
+}
+
+#yeo{
+    color: palevioletred;
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+#mi{
+    color: palevioletred;
+    font-weight: bolder;
+    font-size: 60px;
+    margin-left: 200px;
+}
+
+#food{
+    color: gray;
+    font-size: 15px;
+    margin-left: 200px;
+}
+
+#Mimage{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    vertical-align: middle;
+    align-self: center;
+}
+
+#Mfood1{
+    background-image: url("image/3.png");
+    width: 280px;
+    height: 280px;
+}
+
+#Mfood2{
+    background-image: url("image/6.png");
+    width: 195px;
+    height: 195px;
+}
+
+#Mfood3{
+    background-image: url("image/15.png");
+    width: 195px;
+    height: 195px;
+}
+
+#Mfood4{
+    background-image: url("image/5.png");
+    width: 195px;
+    height: 195px;
+}
+
+#middlebot{
+    width: 100%;
+    height: 600px;
+}
+
+#bot{
+    width: 100%;
+    height: 200px;
+}
+
+#middlebot span{
+    color: white;
+    font-size: 36px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    vertical-align: middle;
+    align-self: center;
+
+    font-family: "배달의민족 도현";
+}
+
+#middlebot div{
+    width: 300px;
+    height: 300px;
+    float: left;
+    margin-top: 100px;
+}
+
+#fes{
+    background-image: url("image/10.png");
+    margin-left: 380px;
+}
+
+#act{
+    background-image: url("image/8.png");
+}
+
+#lee{
+    background-image: url("image/4.png");
+}
+
+#is{
+    background-image: url("image/16.png");
+}
+
+#bot span{
+    color: white;
+    font-size: 20px;
+}
+
+#logo1{
+    width:150px;
+    height: 40px;
+    background-image: url("image/logo1.jpg");
+    margin-left: 1400px;
+}
+
+#botText{
+    margin-left: 100px;
+    font-family: "배달의민족 도현";
+}
+
+#trans{
+    height: 300px;
+}
+
+#transrotate{
+    /* transform: rotate(90deg);
+    
+    transform-origin: left top; */
+    /* float: left;  */
+    color: aqua;
+    margin-top: 100px;
+    display: flex;
+}
+
+#ys10 span{
+    border-radius: 50%;
+    background-color: blue;
+    color: white;
+}
+
+#mainimage{
+    display: flex;
+    margin-top: 600px;
+}
+
+#mainimage1{
+    background-image: url("image/1.png");
+    width: 761px;
+    height: 597px;
+    margin-left: 400px;
+}
+
+#mainimage2{
+    background-image: url("image/9.png");
+    width: 196px;
+    height: 286px;
+    margin-left: 10px;
+}
+
+#mainimage3{
+    background-image: url("image/11.png");
+    width: 203px;
+    height: 134px;
+    margin-left: 10px;
+}
+
+#mainimage4{
+    background-image: url("image/7.png");
+    width: 203px;
+    height: 131px;
+    margin-left: 10px;
+}
+
+#mainimage5{
+    background-image: url("image/14.png");
+    width: 418px;
+    height: 146px;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+}
+
+#mainimage6{
+    background-image: url("image/2.png");
+    width: 196px;
+    height: 128px;
+    margin-left: 10px;
+}
+
+#mainimage7{
+    background-color: blue;
+    width: 196px;
+    height: 128px;
+    margin-left: 10px;
 }
