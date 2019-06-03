@@ -2,12 +2,14 @@
     background-image: url("image/13.png");
     justify-content: space-between;
     display: flex;
+    flex-wrap: nowrap;
     width: 100%;
     height: 853px;
 }
 
 .side{
     width: 30%;
+    flex-wrap: nowrap;
 }
 
 .box{
@@ -69,11 +71,28 @@ li{
 main{
     background-image: url("image/12.png");
     width: 100%;
-    height: 1400px;
+    height: 1150px;
+}
+
+.jy{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.big{
+
+}
+
+.jack{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
 }
 
 #mainText{
     margin-left: 500px;
+    display: flex;
+    flex-direction: row;
 }
 
 #yeo{
@@ -88,8 +107,29 @@ main{
     font-size: 60px;
     margin-left: 200px;
 }
+.fir{
+    display: flex;
+    padding-top: 100px;
+    margin-left: 350px;
+}
+.sec{
+    display: flex;
+}
+.thi{
+    width: 150px;
+}
 
-#food{
+.textCenter{
+    text-align: center;
+}
+
+.textMain{
+    color: gray;
+    font-size: 100px;
+    font-weight: bolder;
+}
+
+.food{
     color: gray;
     font-size: 15px;
     margin-left: 200px;
@@ -101,6 +141,7 @@ main{
     justify-content: center;
     vertical-align: middle;
     align-self: center;
+    
 }
 
 #Mfood1{
@@ -139,7 +180,7 @@ main{
 
 #middlebot span{
     color: white;
-    font-size: 36px;
+    font-size: 30px;
     display: flex;
     text-align: center;
     justify-content: center;
@@ -211,57 +252,50 @@ main{
 }
 
 #mainimage{
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
-    margin-top: 600px;
+    width: 80%;
 }
 
 #mainimage1{
     background-image: url("image/1.png");
-    width: 761px;
+    width: 80%;
     height: 597px;
-    margin-left: 400px;
 }
 
 #mainimage2{
     background-image: url("image/9.png");
     width: 196px;
     height: 286px;
-    margin-left: 10px;
 }
 
 #mainimage3{
     background-image: url("image/11.png");
     width: 203px;
     height: 134px;
-    margin-left: 10px;
 }
 
 #mainimage4{
     background-image: url("image/7.png");
     width: 203px;
     height: 131px;
-    margin-left: 10px;
 }
 
 #mainimage5{
     background-image: url("image/14.png");
     width: 418px;
     height: 146px;
-    margin-top: 20px;
-    margin-left: 10px;
-    margin-bottom: 15px;
 }
 
 #mainimage6{
     background-image: url("image/2.png");
     width: 196px;
     height: 128px;
-    margin-left: 10px;
 }
 
 #mainimage7{
     background-color: blue;
     width: 196px;
     height: 128px;
-    margin-left: 10px;
 }
